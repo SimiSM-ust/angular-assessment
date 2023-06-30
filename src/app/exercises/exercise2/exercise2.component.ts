@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class Exercise2Component {
 
+  // valueFromParent!: string;
+  // getEvent( data: string){
+  //   this.valueFromParent= data;
+  // }
 }

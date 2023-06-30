@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./inverted-parent.component.css']
 })
 export class InvertedParentComponent {
+  fromChild!: string;
+  getEvent(data: string){
+this.fromChild= data;
+  }
 
 }

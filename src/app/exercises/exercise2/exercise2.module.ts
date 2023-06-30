@@ -5,7 +5,9 @@ import { ParentComponent } from './parent/parent.component';
 import { RouterModule } from '@angular/router';
 import { ChildComponent } from './parent/child/child.component';
 import { FormsModule } from '@angular/forms';
+import { InvertedChildComponent } from './inverted-child/inverted-child.component';
 import { InvertedParentComponent } from './inverted-parent/inverted-parent.component';
+
 
 
 
@@ -14,7 +16,9 @@ import { InvertedParentComponent } from './inverted-parent/inverted-parent.compo
     ParentComponent,
     Exercise2Component,
     ChildComponent,
+    InvertedChildComponent,
     InvertedParentComponent
+    
     
   ],
   imports: [

@@ -20,5 +20,7 @@ onClick(){
   this.parentText = this.inputData;
   this.inputData=null;
 }
+
+
 }
 

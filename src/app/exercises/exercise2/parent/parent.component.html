@@ -1,10 +1,14 @@
-<div class="container">
-    <p>Parent Component</p>
-    <input type="text" [(ngModel)]="inputData">
-    &nbsp;
-    <button (click)="onClick()"> Submit</button>
-    <app-child [inputText]="parentText" *ngIf="parentText">
-        
-    </app-child>
 
-</div>
+<div class="container" style="border: black solid 1px; padding: 50px 50px;">
+    <div class="container">
+        <p>Parent Component</p>
+        <input type="text" [(ngModel)]="inputData">
+        &nbsp;
+        <button (click)="onClick()"> Submit</button>
+        <app-child [inputText]="parentText" *ngIf="parentText">
+            
+        </app-child>
+    
+    </div>
+</div> 
+
